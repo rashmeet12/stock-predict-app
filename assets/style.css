@@ -1,0 +1,46 @@
+/* body { background: #F7FAFC; color: #1A202C; }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2563EB;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.nav-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+ */
+
+ /* Global & Navbar */
+body { background: #F7FAFC; color: #1A202C; font-family: 'Inter', sans-serif; }
+.navbar {
+  display: flex; justify-content: space-between; align-items: center;
+  background: #2563EB; padding: 10px 20px; border-radius: 8px; margin-bottom: 1rem;
+}
+.nav-title { font-size: 1.5rem; font-weight: bold; color: white; }
+.nav-links a { margin: 0 12px; color: white; text-decoration: none; }
+.nav-links a:hover { text-decoration: underline; }
+
+/* Metrics Cards */
+.stMetric {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  padding: 1rem !important;
+}
+
+/* Tabs */
+[data-baseweb="tab"] {
+  font-size: 1rem; font-weight: 500;
+}
